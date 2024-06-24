@@ -46,6 +46,8 @@ class Account:
                             break
                         elif psw == 2:
                             self.transaction_pass()
+                        else :
+                            print("Invalid response")
                     elif opti == 4:
                         print(f"Your Balance is {self.balance}")
                     else:
